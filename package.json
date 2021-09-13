@@ -1,19 +1,27 @@
 {
-  "name": "ingredient-app",
-  "version": "0.0.0",
-  "private": true,
+  "name": "cooking-app-api",
+  "version": "1.0.0",
+  "description": "- React",
+  "main": "app.js",
   "scripts": {
-    "start": "node app",
-    "dev": "nodemon $ENV:DEBUG =* node app.js; npm start"
+    "start": "node app.js",
+    "dev": "nodemon $ENV:DEBUG=* node app.js; npm start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoonDY/cooking-app-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoonDY/cooking-app-api/issues"
+  },
+  "homepage": "https://github.com/JoonDY/cooking-app-api#readme",
   "dependencies": {
     "connect-pg-simple": "^6.2.1",
-    "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
-    "debug": "~2.6.9",
     "dotenv": "^10.0.0",
     "express": "~4.16.1",
-    "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
