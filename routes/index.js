@@ -4,4 +4,7 @@ const user = require('./usersRoute');
 module.exports = (app) => {
   app.use('/api/v1/ingredients', ingredients);
   app.use('/auth', user);
+  app.use('/', (req, res) => {
+    res.send('Api running');
+  });
 };
