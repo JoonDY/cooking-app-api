@@ -1,13 +1,11 @@
 ## Ingredients App
+REST API for Ingredients, Recipes, Shopping List
 
-### Concepts Used
-
+## Concepts Used
 - NodeJS (Express)
   - API
   - Routing
   - Database (PostgreSQL)
   - Authorization (Passport, Local, JWT)
 
-### App Details
 
-- REST API for Ingredient, Recipe, Shopping App
